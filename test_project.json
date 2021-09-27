@@ -1,5 +1,4 @@
-"data":[
-  {"firstName":"1", "lastName":"2"}, 
-  {"firstName":"3", "lastName":"4"}, 
-  {"firstName":"5", "lastName":"6"}
+"header":[
+  {"text":"header text", "font":"arial", "text-decoration":"i", "colour":"#000000"}, 
+  {"background-colour":"img", "img-url":"https://img_url.com/example"},
 ]
