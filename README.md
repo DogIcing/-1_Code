@@ -31,7 +31,7 @@
   </ul>
   <li>img-url:</li>
   <ul>
-    > note: don't add this if <code>background-colour</code> is not <code>img</code>
     <li>Url to image</li>
   </ul>
 </ul>
+      > note: don't add this if <code>background-colour</code> is not <code>img</code>
