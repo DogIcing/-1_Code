@@ -2,7 +2,7 @@
 ## header
 <code>"header":[
   {"text":"header text", "font":"arial", "text-decoration":"i", "colour":"#000000", "text-background": "none"}, 
-  {"background-colour":"img", "img-url":"https://img_url.com/example"},
+  {"background-colour":"img", "img-url":"https://img_url.com/example"}
 ]</code>
 <ul>
 <li>text:</li>
