@@ -1,4 +1,6 @@
 # -1_Code
+## introduction
+-1_code is a code system for html. It takes json data and will output html.
 ## header
 <code>"header":[
   {"text":"header text", "font":"arial", "text-decoration":"i", "colour":"#000000", "text-background": "none"}, 
