@@ -19,6 +19,7 @@
 <li>text:</li>
 <ul>
   <li>text</li>
+  <li><code>.line</code> for horizontal line</li>
   </ul>
 <li>font:</li>
   <ul>
