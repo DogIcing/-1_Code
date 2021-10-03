@@ -3,7 +3,7 @@
 -1_code is a code system for html. It takes json data and will output html.
 ## header
 <code>
-  {
+{
   "content":{
     
     "header": {"font":"arial","colour":"#000000","header-text":"header_text","text-background":"none","text-decoration":"i","img-url":"https://img_url.com/example","background-colour":"img"},
@@ -14,9 +14,7 @@
     "body":[
       {"font":"arial","colour":"#000000","section-text":"text","text-background":"none","text-decoration":"i"},
       {"font":"arial","colour":"#000000","section-text":"text","text-background":"none","text-decoration":"i"}
-    ],
-    
-    
+    ],   
   }
 }
 </code>
