@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Fetch a JSON file with XMLHttpRequest</h2>
+<p id="demo"></p>
+<script>
+const xmlhttp = new XMLHttpRequest();
+xmlhttp.onload = function() {
+  const myObj = JSON.parse(this.responseText);
+  var header_font = myObj.content.header.font;
+  var header_colour = myObj.content.header.colour;
+  var header_text = myObj.content.header.header_text;
+  var header_text_background = myObj.content.header.text_background;
+  var header_text_decoration = myObj.content.header.text_decoration;
+  var header_background_colour = myObj.content.header.background_colour;
+  if (header_background_colour == "img") {
+      var header_img_url = myObj.content.header.img_url;
+  }
+  document.getElementById("demo").innerHTML = header_font + "," + header_colour + "," + header_text + "," + header_text_background + "," + header_text_decoration + "," + header_background_colour + "," + header_img_url;
+}
+xmlhttp.open("GET", "https://api.npoint.io/ca6913528e30bb336306");
+xmlhttp.send();
+</script>
+</body>
+</html>
