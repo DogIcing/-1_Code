@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h2>Fetch a JSON file with XMLHttpRequest</h2>
-<p id="demo"></p>
+<p id="output"></p>
 <script>
 const xmlhttp = new XMLHttpRequest();
 xmlhttp.onload = function() {
@@ -16,7 +15,7 @@ xmlhttp.onload = function() {
   if (header_background_colour == "img") {
       var header_img_url = myObj.content.header.img_url;
   }
-  document.getElementById("demo").innerHTML = header_font + "," + header_colour + "," + header_text + "," + header_text_background + "," + header_text_decoration + "," + header_background_colour + "," + header_img_url;
+  document.getElementById("output").innerHTML = header_font + "," + header_colour + "," + header_text + "," + header_text_background + "," + header_text_decoration + "," + header_background_colour + "," + header_img_url;
 }
 xmlhttp.open("GET", "https://api.npoint.io/ca6913528e30bb336306");
 xmlhttp.send();
