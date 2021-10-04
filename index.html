@@ -2,8 +2,6 @@
 <html>
 <body>
 <p id="output"></p>
-<hr>
-<p id="outputhtml"></p>
 <script>
 var html = "<!DOCTYPE html><html><head><style>";
 const xmlhttp = new XMLHttpRequest();
@@ -20,7 +18,6 @@ xmlhttp.onload = function() {
   }
   var html += ".header {font-family: " + header_font + ", Verdana, sans-serif;}</style>";
   document.getElementById("output").innerHTML = header_font + "," + header_colour + "," + header_text + "," + header_text_background + "," + header_text_decoration + "," + header_background_colour + "," + header_img_url;
-  document.getElementById("outputhtml").innerHTML = html;
 }
 xmlhttp.open("GET", "https://api.npoint.io/ca6913528e30bb336306");
 xmlhttp.send();
